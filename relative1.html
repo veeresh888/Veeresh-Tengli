@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative</title>
+    <style>
+        #box{
+            height: 400px;
+            width: 400px;
+            position: absolute;
+            border: solid 1px red;
+            background-color: red;
+        }
+        #sub{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            position: relative;
+            left: -100px;
+            z-index:1;
+            opacity: 0.4px;
+            }
+            #sub1{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            background-color: green;
+            left: 50px;
+            z-index:1;
+            }
+    </style>
+</head>
+<body>
+    <div id="class">
+        <div id="sub">
+            <div id="sub1">
+                </div>
+</body>
+</html>
